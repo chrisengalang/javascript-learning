@@ -27,8 +27,16 @@ const constAssignment = () => {
   x = 2;
 }
 
+const dataTypes = () => {
+  let x = 1
+  let y = 'hello'
+  let z = true
+  let a = [1, 2, 3]
 
-varScope();
-letScope();
-constAssignment();
+  console.log(typeof x)
+  console.log(typeof y)
+  console.log(typeof z)
+  console.log(typeof a)
+}
 
+dataTypes()
