@@ -3,8 +3,8 @@
  */
 
 const calculateFactorial = (num) => {
-  if (num === 0) {
-    console.log(0)
+  if (num < 0) {
+    console.log('Please enter a positive number')
   } else {
     let factorial = 1;
     for (let i = 2; i <= num; i++) {
@@ -18,3 +18,4 @@ const calculateFactorial = (num) => {
 calculateFactorial(4)
 calculateFactorial(3)
 calculateFactorial(20)
+calculateFactorial(-1)
